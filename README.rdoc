@@ -1,0 +1,4 @@
+== README
+Ruby: 2.1.2
+Web site for an event.
+<tt>rake doc:app</tt>.

@@ -1,10 +1,7 @@
-<div class="fixed"> 
-	<nav class="top-bar" data-topbar role="navigation">
+<nav class="top-bar" data-topbar role="navigation">
 		<div class="top-bar-section">
   	  <ul>
-  	    <li><%=link_to 'HOME', root_path %></li>
-  	    <li><%=link_to "About", pages_about_path %></li>
+  	  	<%= render 'layouts/navigation_links' %>
   	  </ul>
   	</div>
-	</nav> 
-</div>
+</nav> 

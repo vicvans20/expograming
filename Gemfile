@@ -41,7 +41,9 @@ gem 'spring',        group: :development
 #exprogramming gems
 gem 'google-drive' #To store info in google google-drive
 gem 'figaro' #Manage ENV variables
-gem 'famous-rails' #CSS/JS Framework
+gem 'compass-rails', '~>2.0.alpha.0' #almosfu dependency
+gem 'zurb-foundation', '~>4.0.0' #almostfu dependency
+gem 'almostfu' #CSS/JS Framework
 group :development do
 	gem 'better_errors'
 	gem 'quiet_assets'

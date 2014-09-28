@@ -16,3 +16,9 @@
 @import "compass";
 @import "foundation";
 @import "almostfu";
+
+$footer-color: #9ABBE5;
+
+.main-footer{
+ background-color: $footer-color;
+}

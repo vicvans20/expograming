@@ -39,11 +39,12 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 #exprogramming gems
-gem 'google-drive' #To store info in google google-drive
-gem 'figaro' #Manage ENV variables
+gem 'google_drive' #To store info in google google-drive
+gem "figaro", "~> 0.7.0" #Manage ENV variables
 gem 'compass-rails', '~>2.0.alpha.0' #almosfu dependency
 gem 'zurb-foundation', '~>4.0.0' #almostfu dependency
 gem 'almostfu' #CSS/JS Framework
+gem 'activerecord-tableless'#Make use of active record method without need of a database, use GDrive instead
 group :development do
 	gem 'better_errors'
 	gem 'quiet_assets'

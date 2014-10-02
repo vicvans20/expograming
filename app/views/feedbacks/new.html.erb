@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="large-12 columns text-center">
+	<div class="small-12 large-12 columns text-center">
 		<h2>Feedback us!</h2>
 	</div>
 </div>
@@ -7,7 +7,7 @@
 <hr class="dashed">
 
 <div class="row">
-	<div class="large-12 columns text-center">
+	<div class="small-12 large-12 columns text-center">
 		<%= form_for @feedback, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
 	  <%= f.text_field :name, placeholder: "Nombre", autofocus: true %>
 	  <%= f.email_field :email, placeholder: "foo@bar.com" %>

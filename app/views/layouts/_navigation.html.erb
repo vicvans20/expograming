@@ -1,7 +1,16 @@
 <nav class="top-bar" data-topbar role="navigation">
-		<div class="top-bar-section">
-  	  <ul>
-  	  	<%= render 'layouts/navigation_links' %>
-  	  </ul>
-  	</div>
-</nav> 
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+    <ul>
+      <li><%=link_to 'Inicio', root_path %></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <%= render 'layouts/navigation_links' %>
+    </ul>
+  </section>
+</nav>
+
+
+
